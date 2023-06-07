@@ -1,7 +1,8 @@
 name: hackathon
 on:
   push:
-    branches: [feature/hackathon-pipeline]
+    branches: 
+      - feature/hackathon-pipeline
     
 jobs:
   run_ecosonar:
