@@ -7,7 +7,8 @@ on:
 jobs:
   run_ecosonar:
     name: Hackathon pipeline
-    runs-on: windows-lastest
+#     runs-on: windows-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: Test
         run: echo Hola
