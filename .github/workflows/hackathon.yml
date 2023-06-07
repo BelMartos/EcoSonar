@@ -1,9 +1,8 @@
 name: hackathon
-
-on: workflow_dispatch
-# on:
-#   push:
-#     branches: [feature/hackathon-pipeline]
+run-name: ${{ github.actor }}
+on:
+  push:
+    branches: [feature/hackathon-pipeline]
     
 jobs:
   run_ecosonar:
@@ -12,4 +11,3 @@ jobs:
     steps:
       - name: Test
         run: echo Hola
-        
