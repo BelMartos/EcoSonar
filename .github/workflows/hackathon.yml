@@ -1,5 +1,4 @@
 name: hackathon
-run-name: ${{ github.actor }}
 on:
   push:
     branches: [feature/hackathon-pipeline]
@@ -7,7 +6,7 @@ on:
 jobs:
   run_ecosonar:
     name: Hackathon pipeline
-    runs-on: ubuntu-lastest
+    runs-on: windows-lastest
     steps:
       - name: Test
         run: echo Hola
