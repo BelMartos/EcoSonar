@@ -1,8 +1,9 @@
 name: hackathon
 
-on:
-  push:
-    branches: [feature/hackathon-pipeline]
+on: workflow_dispatch
+# on:
+#   push:
+#     branches: [feature/hackathon-pipeline]
     
 jobs:
   run_ecosonar:
