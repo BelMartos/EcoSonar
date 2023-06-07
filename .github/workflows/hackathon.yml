@@ -1,0 +1,14 @@
+name: hackathon
+
+on:
+  push:
+    branches: [feature/hackathon-pipeline]
+    
+jobs:
+  run_ecosonar:
+    name: Hackathon pipeline
+    runs-on: ubuntu-lastest
+    steps:
+      - name: Test
+        run: echo Hola
+        
